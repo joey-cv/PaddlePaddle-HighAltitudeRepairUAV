@@ -1,8 +1,8 @@
 # 基于PaddlePaddle的高空补漆巡检无人机
 paddle
 维源翼团队的代码是在开源代码的基础进行修改、联调后使用的，源代码共分为5个大类：  
-1.stm32机械臂控制。负责控制机械臂、泵、打磨头等等。  
-2.机械图纸，关于无人机的SolidWorks机械图纸。  
+1.stm32。负责控制机械臂、泵、打磨头等等。  
+2.Mechanics，关于无人机的SolidWorks机械图纸。  
 3.vins-fusion，代码由港科大开源，负责视觉slam定位导航。  
 4.dji-sdk onboard，大疆A3飞控，负责无人机飞行控制、路线巡检。  
 5.PaddleDectection，无人机视觉识别，原先使用的是yolov4算法，后来改用了开源的ppyolo算法。  
