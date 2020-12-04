@@ -6,6 +6,8 @@ paddle
 3.vins-fusion，代码由港科大开源，负责视觉slam定位导航。  
 4.dji-sdk onboard，大疆A3飞控，负责无人机飞行控制、路线巡检。  
 5.PaddleDectection，无人机视觉识别，原先使用的是yolov4算法，后来改用了开源的ppyolo算法。  
+
+此外，我们还添加了demo_video展示我们测试的视频效果。
   
 （其中vins-fusion与dji-sdk onboard是基于ROS框架下的）  
 （在此我们只说明ppyolo的使用教程）  
